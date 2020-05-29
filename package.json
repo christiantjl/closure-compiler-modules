@@ -1,0 +1,11 @@
+{
+  "name": "closure-compiler-exports",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "google-closure-library": "^20200517.0.0",
+    "object-assign": "^4.1.1",
+    "react": "^16.13.1"
+  }
+}
