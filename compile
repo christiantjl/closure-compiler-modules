@@ -1,0 +1,8 @@
+#!/bin/bash
+
+google-closure-compiler \
+-O ADVANCED \
+--process_common_js_modules \
+--assume_function_wrapper \
+--output_wrapper "(function(){%output%return window.__NODE_MODULES__OBJECT_ASSIGN;}).call(this);" \
+--js ./object-assign.js

@@ -18,7 +18,6 @@ function toObject(val) {
 	return Object(val);
 }
 
-/** @export **/ 
 function shouldUseNative() {
 	try {
 		if (!Object.assign) {
@@ -91,4 +90,4 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-window['__NODE_MODULE__OBJECT_ASSIGN'] = module.exports;
+window['__NODE_MODULES__OBJECT_ASSIGN'] = module.exports;
